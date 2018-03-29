@@ -41,6 +41,11 @@ tr {
     z-index: 1;
 }
 
+.navbar-open {
+    border:none;
+    box-shadow: none;
+}
+
 .navbar-container {
     width: 90%;
     margin: auto;

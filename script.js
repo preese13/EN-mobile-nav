@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 		$(this).toggleClass('open');
 		$('.nav-info-container').toggleClass('display');
+		$('.navbar-mobile').toggleClass('navbar-open');
 		window.scrollTo(0, 0);
 		
 	});
