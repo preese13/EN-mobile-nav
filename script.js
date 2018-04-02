@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var isOpen = false;
 	var productsOpen = false;
-	$('#nav-icon3').click(function(){
+	$('#nav-icon').click(function(){
 
 		$(this).toggleClass('open');
 		$('.nav-info-container').toggleClass('display');
