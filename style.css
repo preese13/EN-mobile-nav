@@ -19,8 +19,8 @@
 }
 .resize {
     font-size: 20px;
-    height: calc((100vh - 65px) / 13); 
-    line-height:  calc((100vh - 65px) / 13); 
+    height: calc((100vh - 65px) / 12); 
+    line-height:  calc((100vh - 65px) / 12); 
 }
 
 .products-row-info {
@@ -34,7 +34,7 @@
 }
 
 .products-open {
-    height: calc((100vh - 65px) / 1.65);
+    height: calc((100vh - 65px) / 1.79);
 }
 
 .navbar-mobile {
