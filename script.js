@@ -8,6 +8,11 @@ $(document).ready(function(){
 		$('.navbar-mobile').toggleClass('navbar-open');
 		window.scrollTo(0, 0);
 
+		if(productsOpen) {
+			setTimeout(function(){ 
+				$('.navbar-mobile').toggleClass('navbar-open');
+			 }, 330);
+		}
 		
 	});
 
