@@ -27,7 +27,7 @@ $(document).ready(function(){
 			setTimeout(function(){ 
 				$('#products-row').toggleClass('products-open');
 				$('.mobile-nav-row-2').toggleClass('resize');
-			 }, 330);
+			 }, 350);
 		}
 		else {
 			productsOpen = ! productsOpen;
