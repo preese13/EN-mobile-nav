@@ -25,7 +25,6 @@ $(document).ready(function(){
 			setTimeout(function(){ 
 				$('#products-row').toggleClass('products-open');
 				$('.mobile-nav-row-2').toggleClass('display-none');
-				$('.mobile-nav-row').toggleClass('resize');
 				$('.mobile-nav-row-end').toggleClass('resize');
 				$('#products-arrow').toggleClass('rotated');
 			 }, 400);
@@ -34,7 +33,6 @@ $(document).ready(function(){
 			$('.products-info-container').toggleClass('display');
 			$('#products-row').toggleClass('products-open');
 			$('.mobile-nav-row-2').toggleClass('display-none');	
-			$('.mobile-nav-row').toggleClass('resize');
 			$('.mobile-nav-row-end').toggleClass('resize');
 			$('#products-arrow').toggleClass('rotated');
 

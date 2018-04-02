@@ -14,8 +14,8 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    line-height: calc((100vh - 60px) / 6.8);
-    height: calc((100vh - 60px) / 6.8);
+    line-height: calc((100vh - 60px) / 6.3);
+    height: calc((100vh - 60px) / 6.3);
 }
 
 .mobile-nav-row-end {
@@ -24,8 +24,8 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    line-height: calc((100vh - 60px) / 6.8);
-    height: calc((100vh - 60px) / 6.8);
+    line-height: calc((100vh - 60px) / 6.3);
+    height: calc((100vh - 60px) / 6.3);
 }
 .resize {
     font-size: 20px;
