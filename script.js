@@ -7,10 +7,14 @@ $(document).ready(function(){
 		$('.nav-info-container').toggleClass('display');
 		window.scrollTo(0, 0);
 
-		setTimeout(function(){ 
+		if(isOpen) {
+			setTimeout(function(){ 
+				$('.navbar-mobile').toggleClass('navbar-open');
+			 }, 330);
+		}
+		else {
 			$('.navbar-mobile').toggleClass('navbar-open');
-		 }, 330);
-
+		}
 		
 	});
 
