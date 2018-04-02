@@ -3,7 +3,7 @@
     text-align: center;  
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
-    height: calc((100vh - 65px) / 8);
+    height: calc((100vh - 65px) / 9);
 }
 
 .mobile-nav-row-2 {
@@ -11,19 +11,19 @@
     text-align: center;  
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
-    height: calc((100vh - 65px) / 8);
+    height: calc((100vh - 65px) / 9);
 }
 .resize {
-    height: calc((100vh - 65px) / 12); 
+    height: calc((100vh - 65px) / 13); 
 }
 
 .products-row-info {
     text-align: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    height: calc( ((100vh - 75px) / 15));
+    height: calc( ((100vh - 75px) / 16));
     vertical-align: middle;
-    line-height: calc( ((100vh - 75px) / 15));
+    line-height: calc( ((100vh - 75px) / 16));
 }
 
 .products-open {
