@@ -4,8 +4,8 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    height: calc((100vh - 65px) / 8);
-    line-height: calc((100vh - 65px) / 8);
+    height: calc((100vh - 60px) / 8);
+    line-height: calc((100vh - 60px) / 8);
 }
 
 .mobile-nav-row-2 {
@@ -14,32 +14,32 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    line-height: calc((100vh - 65px) / 8);
-    height: calc((100vh - 65px) / 8);
+    line-height: calc((100vh - 60px) / 8);
+    height: calc((100vh - 60px) / 8);
 }
 .resize {
     font-size: 20px;
-    height: calc((100vh - 65px) / 12); 
-    line-height:  calc((100vh - 65px) / 12); 
+    height: calc((100vh - 60px) / 12); 
+    line-height:  calc((100vh - 60px) / 12); 
 }
 
 .products-row-info {
     text-align: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    height: calc( ((100vh - 75px) / 16));
+    height: calc( ((100vh - 60px) / 16));
     vertical-align: middle;
-    line-height: calc( ((100vh - 75px) / 16));
+    line-height: calc( ((100vh - 60px) / 16));
     background: #FBFBFB;
 }
 
 .products-open {
-    height: calc((100vh - 65px) / 1.79);
+    height: calc((100vh - 60px) / 1.68);
 }
 
 .navbar-mobile {
     width: 100vw;
-    height: 65px;
+    height: 60px;
     position: fixed;
     top: 0px;
     color: rgba(0,0,0,1);
@@ -75,7 +75,7 @@ body{
     padding: 0px;
     margin: 0px;
     width: 100%;
-    height: calc( ((100vh - 75px) / 10.5));
+    height: calc( ((100vh - 60px) / 10.5));
     background: #FBFBFB;
 }
 .inner-table-td{
