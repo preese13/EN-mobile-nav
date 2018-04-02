@@ -10,7 +10,7 @@ $(document).ready(function(){
 		if(isOpen) {
 			setTimeout(function(){ 
 				$('.navbar-mobile').toggleClass('navbar-open');
-			 }, 330);
+			 }, 500);
 		}
 		else {
 			$('.navbar-mobile').toggleClass('navbar-open');
