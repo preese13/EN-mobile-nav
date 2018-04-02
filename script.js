@@ -9,7 +9,6 @@ $(document).ready(function(){
 
 		if(isOpen) {
 			setTimeout(function(){ 
-				console.log(1)
 				$('.navbar-mobile').toggleClass('navbar-open');
 			 }, 500);
 		}
@@ -22,21 +21,21 @@ $(document).ready(function(){
 	$('#products-toggle').click(function(){
 		
 		if(productsOpen) {
-			productsOpen = ! productsOpen;
 			$('.products-info-container').toggleClass('display');
 			setTimeout(function(){ 
 				$('#products-row').toggleClass('products-open');
 				$('.mobile-nav-row-2').toggleClass('resize');
 				$('.mobile-nav-row').toggleClass('resize');
 				
-			 }, 350);
+			 }, 400);
 		}
 		else {
-			productsOpen = ! productsOpen;
 			$('.products-info-container').toggleClass('display');
 			$('#products-row').toggleClass('products-open');
 			$('.mobile-nav-row-2').toggleClass('resize');	
 			$('.mobile-nav-row').toggleClass('resize');
 		}
+
+		productsOpen = ! productsOpen;
 	});
 });
