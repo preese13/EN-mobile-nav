@@ -4,8 +4,8 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    height: calc((100vh - 60px) / 6.8);
-    line-height: calc((100vh - 60px) / 6.8);
+    height: calc((100vh - 60px) / 12); 
+    line-height:  calc((100vh - 60px) / 12); 
 }
 
 .mobile-nav-row-2 {
@@ -95,6 +95,10 @@ body{
     width: 50%;
     font-family: 'Roboto', sans-serif;
 }
+
+#products-arrow {   
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition:         transform .3s ease-in-out;}
 .rotated {
     transform: rotate(180deg);
     -ms-transform: rotate(180deg); /* IE 9 */

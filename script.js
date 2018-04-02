@@ -28,7 +28,6 @@ $(document).ready(function(){
 				$('.mobile-nav-row').toggleClass('resize');
 				$('.mobile-nav-row-end').toggleClass('resize');
 				$('#products-arrow').toggleClass('rotated');
-				
 			 }, 400);
 		}
 		else {
