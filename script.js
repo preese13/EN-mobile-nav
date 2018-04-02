@@ -7,8 +7,6 @@ $(document).ready(function(){
 		$('.nav-info-container').toggleClass('display');
 		window.scrollTo(0, 0);
 
-		isOpen = !isOpen;
-
 		if(isOpen) {
 			setTimeout(function(){ 
 				console.log(1)
@@ -18,7 +16,7 @@ $(document).ready(function(){
 		else {
 			$('.navbar-mobile').toggleClass('navbar-open');
 		}
-		
+		isOpen = !isOpen;
 	});
 
 	$('#products-toggle').click(function(){
