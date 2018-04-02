@@ -1,37 +1,38 @@
-.mobile-nav-table {
+.mobile-nav-row {
     width: 100vw;
-}
-table {
-    width: 100%;
-    table-layout: fixed;
-}
-tr {
-    width: 100%;
-    text-align: center;
-    height: calc((100vh - 75px) / 20);
-}
-.outer-row-small {
-    width: 100%;
-    text-align: center;
-    height: calc((100vh - 75px) / 12);
-}
-.outer-table-td{
-    width: 50%;
+    text-align: center;  
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
-
-}
-.row-section-large {
-    height: calc((100vh - 75px) / 9);
-}
-.row-section-last {
-    height: calc((100vh - 75px) / 6.5);
+    height: calc((100vh - 65px) / 8);
 }
 
+.mobile-nav-row-2 {
+    width: 100vw;
+    text-align: center;  
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    height: calc((100vh - 65px) / 8);
+}
+.resize {
+    height: calc((100vh - 65px) / 12); 
+}
+
+.products-row-info {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: calc( ((100vh - 75px) / 15));
+    vertical-align: middle;
+    line-height: calc( ((100vh - 75px) / 15));
+}
+
+.products-open {
+    height: calc((100vh - 65px) / 1.7);
+}
 
 .navbar-mobile {
     width: 100vw;
-    height: 75px;
+    height: 65px;
     position: fixed;
     top: 0px;
     color: rgba(0,0,0,1);
@@ -88,16 +89,30 @@ body{
     box-shadow:0px 15px 15px -15px rgba(0, 0, 0, 0.1);
   }
 
+  .products-info-container{
+    -webkit-transition: max-height .5s; 
+    -moz-transition: max-height .5s; 
+    -ms-transition: max-height .5s; 
+    -o-transition: max-height .5s; 
+    transition: max-height .5s;  
+    background-color: rgba(255, 255, 255);
+    overflow: hidden;
+    max-height: 0;
+
+    background-color: #FBFBFB;
+  }
+
+
 
 .display {
-    max-height: 100vh;
+    max-height: 150vh;
     z-index: 1;
 }
 
 
 #nav-icon3{
 
-    width: 50px;
+    width: 45px;
     height: 20px;
     position: relative;
     float: right;
@@ -115,7 +130,7 @@ body{
   #nav-icon3 span {
     display: block;
     position: absolute;
-    height: 7px;
+    height: 5px;
     width: 100%;
     background: #105685;
     border-radius: 9px;
@@ -138,11 +153,11 @@ body{
   }
   
   #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-    top: 12px;
+    top: 10px;
   }
   
   #nav-icon3 span:nth-child(4) {
-    top: 24px;
+    top: 20px;
   }
   
   #nav-icon3.open span:nth-child(1) {
