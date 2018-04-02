@@ -7,8 +7,11 @@ $(document).ready(function(){
 		$('.nav-info-container').toggleClass('display');
 		window.scrollTo(0, 0);
 
+		isOpen = !isOpen;
+
 		if(isOpen) {
 			setTimeout(function(){ 
+				console.log(1)
 				$('.navbar-mobile').toggleClass('navbar-open');
 			 }, 500);
 		}
