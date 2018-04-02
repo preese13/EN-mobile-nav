@@ -13,6 +13,9 @@ $(document).ready(function(){
 				$('.navbar-mobile').toggleClass('navbar-open');
 			 }, 330);
 		}
+		else {
+			$('.navbar-mobile').toggleClass('navbar-open');
+		}
 		
 	});
 
