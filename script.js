@@ -17,7 +17,6 @@ $(document).ready(function(){
 			productsOpen = ! productsOpen;
 			$('.products-info-container').toggleClass('display');
 			setTimeout(function(){ 
-				$('.navbar-mobile').toggleClass('navbar-open');
 				$('#products-row').toggleClass('products-open');
 				$('.mobile-nav-row-2').toggleClass('resize');
 			 }, 330);
@@ -25,7 +24,6 @@ $(document).ready(function(){
 		else {
 			productsOpen = ! productsOpen;
 			$('.products-info-container').toggleClass('display');
-			$('.navbar-mobile').toggleClass('navbar-open');
 			$('#products-row').toggleClass('products-open');
 			$('.mobile-nav-row-2').toggleClass('resize');	
 		}
