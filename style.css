@@ -46,7 +46,7 @@
 }
 
 .products-open {
-    height: calc((100vh - 60px) / 1.4);
+    height: calc((100vh - 60px) / 1.408);
 }
 
 .navbar-mobile {
