@@ -4,8 +4,8 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    height: calc((100vh - 60px) / 8);
-    line-height: calc((100vh - 60px) / 8);
+    height: calc((100vh - 60px) / 6.5);
+    line-height: calc((100vh - 60px) / 6.5);
 }
 
 .mobile-nav-row-2 {
@@ -14,27 +14,39 @@
     font-size: 25px;
     font-family: 'Roboto Slab', serif;
     vertical-align: middle;
-    line-height: calc((100vh - 60px) / 8);
-    height: calc((100vh - 60px) / 8);
+    line-height: calc((100vh - 60px) / 6.5);
+    height: calc((100vh - 60px) / 6.5);
+}
+
+.mobile-nav-row-end {
+    width: 100vw;
+    text-align: center;  
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    vertical-align: middle;
+    line-height: calc((100vh - 60px) / 6);
+    height: calc((100vh - 60px) / 6);
 }
 .resize {
     font-size: 20px;
     height: calc((100vh - 60px) / 12); 
     line-height:  calc((100vh - 60px) / 12); 
 }
-
+.display-none {
+    display: none;
+}
 .products-row-info {
     text-align: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    height: calc( ((100vh - 60px) / 16));
+    height: calc( ((100vh - 60px) / 13));
     vertical-align: middle;
-    line-height: calc( ((100vh - 60px) / 16));
+    line-height: calc( ((100vh - 60px) / 13));
     background: #FBFBFB;
 }
 
 .products-open {
-    height: calc((100vh - 60px) / 1.68);
+    height: calc((100vh - 60px) / 1.4);
 }
 
 .navbar-mobile {

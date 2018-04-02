@@ -24,16 +24,18 @@ $(document).ready(function(){
 			$('.products-info-container').toggleClass('display');
 			setTimeout(function(){ 
 				$('#products-row').toggleClass('products-open');
-				$('.mobile-nav-row-2').toggleClass('resize');
+				$('.mobile-nav-row-2').toggleClass('display-none');
 				$('.mobile-nav-row').toggleClass('resize');
+				$('.mobile-nav-row-end').toggleClass('resize');
 				
 			 }, 400);
 		}
 		else {
 			$('.products-info-container').toggleClass('display');
 			$('#products-row').toggleClass('products-open');
-			$('.mobile-nav-row-2').toggleClass('resize');	
+			$('.mobile-nav-row-2').toggleClass('display-none');	
 			$('.mobile-nav-row').toggleClass('resize');
+			$('.mobile-nav-row-end').toggleClass('resize');
 		}
 
 		productsOpen = ! productsOpen;
