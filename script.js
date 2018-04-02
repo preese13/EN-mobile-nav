@@ -20,7 +20,7 @@ $(document).ready(function(){
 				$('.navbar-mobile').toggleClass('navbar-open');
 				$('#products-row').toggleClass('products-open');
 				$('.mobile-nav-row-2').toggleClass('resize');
-			 }, 440);
+			 }, 330);
 		}
 		else {
 			productsOpen = ! productsOpen;
