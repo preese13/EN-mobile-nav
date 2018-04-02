@@ -27,6 +27,8 @@ $(document).ready(function(){
 			setTimeout(function(){ 
 				$('#products-row').toggleClass('products-open');
 				$('.mobile-nav-row-2').toggleClass('resize');
+				$('.mobile-nav-row').toggleClass('resize');
+				
 			 }, 350);
 		}
 		else {
@@ -34,6 +36,7 @@ $(document).ready(function(){
 			$('.products-info-container').toggleClass('display');
 			$('#products-row').toggleClass('products-open');
 			$('.mobile-nav-row-2').toggleClass('resize');	
+			$('.mobile-nav-row').toggleClass('resize');
 		}
 	});
 });
