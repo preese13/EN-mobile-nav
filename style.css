@@ -18,6 +18,7 @@
     height: calc((100vh - 65px) / 8);
 }
 .resize {
+    font-size: 20px;
     height: calc((100vh - 65px) / 13); 
     line-height:  calc((100vh - 65px) / 13); 
 }
